@@ -1,0 +1,5 @@
+<div>
+  現在時刻 :  <span class = 'timestamp'> <%= Time.now %></span>
+</div>
+
+<%= link_to '更新', time_current_path, class: 'ajax-btn', remote: true %>
